@@ -1,6 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="170dp"
+        android:layout_height="158dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/man"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="22dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="Nombre"
+        style="@style/txtBoxStyle"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView28"
+        style="@style/txtBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView27"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="Rafael"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        style="@style/txtBoxStyle"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="109dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="Apellido"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        style="@style/txtBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView29"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="Bolaños"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        style="@style/txtBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="25dp"
+        android:text="Grupo:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        style="@style/txtBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@+id/textView31"
+        android:text="B"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        style="@style/txtBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView32"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="21dp"
+        android:text="Semestre:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        style="@style/txtBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="78dp"
+        android:layout_toEndOf="@+id/textView33"
+        android:text="7"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        style="@style/txtBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="130dp"
+        android:text="N. Control:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        style="@style/txtBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="129dp"
+        android:layout_toEndOf="@+id/textView35"
+        android:text="16270740"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        style="@style/txtBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="181dp"
+        android:text="Celular:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        style="@style/txtBoxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="184dp"
+        android:layout_toEndOf="@+id/textView37"
+        android:text="9611978488"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="Guardar"
+        style="@style/defaultButtonStyle"/>
+
+</RelativeLayout>
