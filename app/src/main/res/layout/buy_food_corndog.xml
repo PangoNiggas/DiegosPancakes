@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/imageView"
         style="@style/defaultImageStyle"
-        app:srcCompat="@drawable/burger"
+        app:srcCompat="@drawable/corndog"
         android:layout_centerHorizontal="true" />
 
     <TextView

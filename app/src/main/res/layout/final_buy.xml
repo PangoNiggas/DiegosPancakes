@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textExito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPRA EXITOSA!!"
+        style="@style/txtBoxStyle"
+        android:textSize="40dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageCheckmark"
+        android:layout_width="217dp"
+        android:layout_height="257dp"
+        app:srcCompat="@drawable/checkmark" />
+
+    <TextView
+        android:id="@+id/textoRandon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        style="@style/txtBoxStyle"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Su compra ha sido realizada con exito, favor de pasar a traer su producto al salon D1 11 a las 10 a.m." />
+</LinearLayout>

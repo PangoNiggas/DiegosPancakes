@@ -8,6 +8,6 @@ public class LogIng extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_log_ing);
+        setContentView(R.layout.incomplete_buys);
     }
 }
