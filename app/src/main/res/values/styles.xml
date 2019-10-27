@@ -17,7 +17,8 @@
         <item name="android:background">@color/colorPrimaryDark</item>
     </style>
     <style name="defaultImageStyle">
-        <item name="layout_width">@styles/anchhoImagen</item>
-
+        <item name="android:layout_width">113dp</item>
+        <item name="android:layout_height">135dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
     </style>
 </resources>

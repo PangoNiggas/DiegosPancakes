@@ -5,35 +5,100 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryLight">
-
-    <TableLayout
-        android:id="@+id/tablaProductos"
+    
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
-        <TableRow
-            android:id="@+id/pancakeRow"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        <TableLayout
+            android:id="@+id/tablaProductos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
-            <ImageView
-                android:id="@+id/pancakeImg"
-                style="@style/defaultImageStyle"
-                android:contentDescription="@android:string/untitled"
-                android:layout_width="113dp"
-                android:layout_height="135dp"
-                app:srcCompat="@drawable/pancake" />
-
-            <Button
-                android:id="@+id/hotCake"
+            <TableRow
+                android:id="@+id/pancakeRow"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hotcakes"
-                style="@style/defaultButtonStyle"
-                android:layout_marginTop="70dp"
-                android:layout_marginHorizontal="150dp"/>
+                android:layout_height="wrap_content">
 
-        </TableRow>
-    </TableLayout>
+                <ImageView
+                    android:id="@+id/pancakeImg"
+                    style="@style/defaultImageStyle"
+                    android:contentDescription="@android:string/untitled"
+                    app:srcCompat="@drawable/pancake" />
+
+                <Button
+                    android:id="@+id/hotCake"
+                    style="@style/defaultButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="150dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Hotcakes" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tortaRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/sandwichImg"
+                    style="@style/defaultImageStyle"
+                    android:contentDescription="@android:string/untitled"
+                    app:srcCompat="@drawable/sandwich" />
+
+                <Button
+                    android:id="@+id/sandWich"
+                    style="@style/defaultButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="150dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Torta" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/burguerRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/burguerImg"
+                    style="@style/defaultImageStyle"
+                    android:contentDescription="@android:string/untitled"
+                    app:srcCompat="@drawable/burger" />
+
+                <Button
+                    android:id="@+id/hamBurguer"
+                    style="@style/defaultButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="150dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Burguer" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/banderillaRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/banderillaImg"
+                    style="@style/defaultImageStyle"
+                    android:contentDescription="@android:string/untitled"
+                    app:srcCompat="@drawable/corndog" />
+
+                <Button
+                    android:id="@+id/bandeRilla"
+                    style="@style/defaultButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="150dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Banderilla" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
 
 </LinearLayout>
