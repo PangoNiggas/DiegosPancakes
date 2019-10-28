@@ -8,6 +8,6 @@ public class LogIng extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.incomplete_buys);
+        setContentView(R.layout.food_to_bring_diego);
     }
 }
