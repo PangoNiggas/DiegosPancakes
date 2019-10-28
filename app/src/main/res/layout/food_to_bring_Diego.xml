@@ -10,6 +10,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <TextView
+            android:id="@+id/textVie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
         <TableLayout
             android:id="@+id/tablaProductos"
             android:layout_width="wrap_content"
@@ -113,7 +119,7 @@
                                 android:text="TextView" />
 
                             <TextView
-                                android:id="@+id/textView15"
+                                android:id="@+id/textView1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="TextView" />
@@ -166,19 +172,141 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/sandwichImg"
+                    android:id="@+id/tortaImg"
                     style="@style/defaultImageStyle"
                     android:contentDescription="@android:string/untitled"
                     app:srcCompat="@drawable/sandwich" />
 
-                <Button
-                    android:id="@+id/sandWich"
-                    style="@style/defaultButtonStyle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="150dp"
-                    android:layout_marginTop="70dp"
-                    android:text="Torta" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ScrollView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="59dp"
+                        android:layout_marginTop="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tortaView14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/tortaView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/tortaView17"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/tortaView16"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/tortaView15"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+                        </LinearLayout>
+                    </ScrollView>
+
+                    <ScrollView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="150dp"
+                        android:layout_marginTop="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tortaView20"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/tortaView21"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/tortaView22"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/tortaView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/tortaView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+                        </LinearLayout>
+                    </ScrollView>
+
+                    <Button
+                        android:id="@+id/tortabutton7"
+                        style="@style/defaultButtonStyle"
+                        android:layout_width="78dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Llamar"
+                        android:textSize="10dp" />
+
+                    <Button
+                        android:id="@+id/tortabutton8"
+                        style="@style/defaultButtonStyle"
+                        android:layout_width="77dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="84dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Entregar"
+                        android:textSize="10dp" />
+
+                    <Button
+                        android:id="@+id/tortabutton9"
+                        style="@style/defaultButtonStyle"
+                        android:layout_width="70dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="165dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Cacnelar"
+                        android:textSize="10dp" />
+                </RelativeLayout>
             </TableRow>
 
             <TableRow
@@ -192,14 +320,136 @@
                     android:contentDescription="@android:string/untitled"
                     app:srcCompat="@drawable/burger" />
 
-                <Button
-                    android:id="@+id/hamBurguer"
-                    style="@style/defaultButtonStyle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="150dp"
-                    android:layout_marginTop="70dp"
-                    android:text="Burguer" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ScrollView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="59dp"
+                        android:layout_marginTop="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/burguerView14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/burguerView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/burguerView17"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/burguerView16"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/burguerView15"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+                        </LinearLayout>
+                    </ScrollView>
+
+                    <ScrollView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="150dp"
+                        android:layout_marginTop="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/burguerView20"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/burguerView21"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/burguerView22"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/burguerView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/burguerView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+                        </LinearLayout>
+                    </ScrollView>
+
+                    <Button
+                        android:id="@+id/burguerbutton7"
+                        style="@style/defaultButtonStyle"
+                        android:layout_width="78dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Llamar"
+                        android:textSize="10dp" />
+
+                    <Button
+                        android:id="@+id/burguerbutton8"
+                        style="@style/defaultButtonStyle"
+                        android:layout_width="77dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="84dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Entregar"
+                        android:textSize="10dp" />
+
+                    <Button
+                        android:id="@+id/burguerbutton9"
+                        style="@style/defaultButtonStyle"
+                        android:layout_width="70dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="165dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Cacnelar"
+                        android:textSize="10dp" />
+                </RelativeLayout>
             </TableRow>
 
             <TableRow
@@ -213,14 +463,136 @@
                     android:contentDescription="@android:string/untitled"
                     app:srcCompat="@drawable/corndog" />
 
-                <Button
-                    android:id="@+id/bandeRilla"
-                    style="@style/defaultButtonStyle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="150dp"
-                    android:layout_marginTop="70dp"
-                    android:text="Banderilla" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ScrollView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="59dp"
+                        android:layout_marginTop="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/banderillaView14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/banderillaView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/banderillaView17"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/banderillaView16"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/banderillaView15"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+                        </LinearLayout>
+                    </ScrollView>
+
+                    <ScrollView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="150dp"
+                        android:layout_marginTop="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/banderillaView20"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/banderillaView21"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/banderillaView22"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/banderillaView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+
+                            <TextView
+                                android:id="@+id/banderillaView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+                        </LinearLayout>
+                    </ScrollView>
+
+                    <Button
+                        android:id="@+id/banderillabutton7"
+                        style="@style/defaultButtonStyle"
+                        android:layout_width="78dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Llamar"
+                        android:textSize="10dp" />
+
+                    <Button
+                        android:id="@+id/banderillabutton8"
+                        style="@style/defaultButtonStyle"
+                        android:layout_width="77dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="84dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Entregar"
+                        android:textSize="10dp" />
+
+                    <Button
+                        android:id="@+id/banderillabutton9"
+                        style="@style/defaultButtonStyle"
+                        android:layout_width="70dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="165dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Cacnelar"
+                        android:textSize="10dp" />
+                </RelativeLayout>
             </TableRow>
         </TableLayout>
     </ScrollView>
